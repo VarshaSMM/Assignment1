@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+   background-image:linear-gradient( to right, rgb(146, 122, 160), rgb(243, 229, 2510));
+   color:black;
+   
+}
+
+
+
+
+
+
+.profile-pic img{
+border-radius: 50%;
+height: 350px;
+width: 350px;
+margin-top: 50px;
+}
+.divide p{
+    font-size: 18px;
+    line-height: 40px;
+}
+.divide{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.wrk{
+    font-size: 18px;
+    line-height: 40px;
+}
+.aboutdiv, .workdiv{
+    width: 50%;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 30px;
+    background-color: rgba(101, 155, 226, 0.4);
+    border-radius: 8px;
+ 
+}
+table,td,th{
+    border: 2px solid rgb(7, 50, 100);
+    border-collapse: collapse;
+    padding: 30px 30px 30px 30px;
+}
+table{
+   margin: auto;
+   font-size: 18px;
+   margin-top: 50px;
+}
+.flexy{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+.sider{
+    margin-top: 5%;
+  
+    padding: 20px 20px 20px 20px;
+    
+    height: 100px;
+    border-radius: 8px;
+    
+}
+.bio{
+    font-size: 18px;
+}
+.sider h1{
+    font-size: 40px;
+}
+.sider p{
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 40px;
+}
+.about{
+    font-size: 20px;
+}
+.next{
+font-size: 18px;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 30px;
+}
+.mid{
+    margin: auto;
+    color: beige;
+    background-color: cadetblue;
+    border: none;
+    height: 60px;
+    width: 120px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+}
+.resume{
+    display: flex;
+
+}
+.resume select {
+    height: 30px ;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
